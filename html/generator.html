@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Character Generator - Café Coruscant</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+    <link href="../css/reset.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <script src="../js/index.js" type="module"></script>
+  </head>
+
+  <body>
+
+    <!--  Header -->
+    <header>
+      <!--  Logo -->
+      <a href="../index.html">
+        <img src="../images/logo.png" alt="Logo with a picture of a coffee cup and text displaying the words Café Coruscant">
+      </a>
+
+      <!--  Navigation -->
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="open.html">Open Hours</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li class="active"><a href="generator.html">Character Generator</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <h1>Random Character Generator</h1>
+      <p>Please use our random character generator below to get a character from your favourite Star Wars film...</p>
+
+      <div id="wrapper_icon">
+        <picture>
+          <source srcset="../images/sampling.png" media="(min-width: 1000px)"> <!-- Laptops -->
+          <source srcset="../images/random-2.png" media="(min-width: 320px)"> <!-- Phones & iPads -->
+          <img src="../images/sampling" alt="A picture visualising random choosing" width="65">
+        </picture>
+      </div>
+
+      <!-- Random Character Generator -->
+      <div id="widget">
+        <!--
+        <section id="searcher">
+          <label for="film_choice">Choose Film: </label>
+            <select name="film" id="film">
+              <option value="all">All</options>
+              <option value="one">The Phantom Menace</option>
+              <option value="two">Attack of the Clones</option>
+              <option value="three">Revenge of the Sith</option>
+              <option value="four">A New Hope</option>
+              <option value="five">The Empire Strikes Back</option>
+              <option value="six">Return of the Jedi</option>
+            </select>
+        </section>
+        -->
+
+        <!--
+        <section id="generator">
+          <button id = "generate_button">Generate Random Character</button>
+        </section>
+        -->
+
+        <!--
+        <section id="persona">
+          <p id="character">Name: </p>
+          <p id="gender">Gender: </p>
+        </section>
+        -->
+      </div>
+      
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>Images from <a href="https://unsplash.com">unsplash</a></p>
+      <p>Icons from <a href="https://www.flaticon.com/free-icons/movie">Flaticon</a></p>
+      <p>Logo from <a href="https://express.adobe.com/sv-SE/sp/onboarding">Adobe Express</a></p>
+    </footer>
+
+
+  </body>
+</html>

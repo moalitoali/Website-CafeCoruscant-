@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact - Café Coruscant</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+    <link href="../css/reset.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!--  Header -->
+    <header>
+      <!--  Logo -->
+      <a href="../index.html">
+        <img src="../images/logo.png" alt="Logo with a picture of a coffee cup and text displaying the words Café Coruscant">
+      </a>
+    
+      <!--  Navigation -->
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="open.html">Open Hours</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="generator.html">Character Generator</a></li>
+          <li class="active"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <h1>Please contact us using the form below:</h1>
+
+      <!-- Form -->
+      <form method="post" action="contact.html">
+        <ul>
+
+          <li>
+            <label for="name">*Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+          </li>
+
+          <li>
+            <label for="email">*Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your email">
+          </li>
+
+          <li>
+            <label for="character">Favourite Skywalker:</label>
+            <select name="character" id="character">
+              <option value="sith">Neither, I am a sith...</option>
+              <option value="anakin">Anakin</option>
+              <option value="luke">Luke</option>
+              <option value="leia">Leia</option>
+              <option value="rey">Rey</option>
+            </select>
+          </li>
+
+          <li>
+            <label for="message">*Message:</label>
+              <textarea name="message" rows="5" cols="30" id="message" required></textarea>
+          </li>
+
+          <li>
+            <input type="submit" name="submit" value="Submit&rarr;">
+          </li>
+        </ul>
+      </form>
+      
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>Images from <a href="https://unsplash.com">unsplash</a></p>
+      <p>Icons from <a href="https://www.flaticon.com/free-icons/movie">Flaticon</a></p>
+      <p>Logo from <a href="https://express.adobe.com/sv-SE/sp/onboarding">Adobe Express</a></p>
+    </footer>
+
+
+  </body>
+</html>
